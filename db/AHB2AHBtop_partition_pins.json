@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "address[10]",
+					"strict" : false
+				},
+				{
+					"name" : "write",
+					"strict" : false
+				},
+				{
+					"name" : "dout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[0]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[3]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[4]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[5]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[6]",
+					"strict" : false
+				},
+				{
+					"name" : "leitura[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hready",
+					"strict" : false
+				},
+				{
+					"name" : "memos1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "resetn",
+					"strict" : false
+				},
+				{
+					"name" : "hclk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

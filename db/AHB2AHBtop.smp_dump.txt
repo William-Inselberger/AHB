@@ -1,0 +1,20 @@
+
+State Machine - |AHB2AHBtop|ahbtop:U2|ahbslave:slave2|state
+Name state.READ state.WRITE state.s1 state.idle 
+state.idle 0 0 0 0 
+state.s1 0 0 1 1 
+state.WRITE 0 1 0 1 
+state.READ 1 0 0 1 
+
+State Machine - |AHB2AHBtop|ahbtop:U2|ahbslave:slave1|state
+Name state.READ state.WRITE state.s1 state.idle 
+state.idle 0 0 0 0 
+state.s1 0 0 1 1 
+state.WRITE 0 1 0 1 
+state.READ 1 0 0 1 
+
+State Machine - |AHB2AHBtop|ahbtop:U2|ahbmaster:master|state
+Name state.s1 state.READ state.WRITE 
+state.s1 0 0 0 
+state.WRITE 1 0 1 
+state.READ 1 1 0 

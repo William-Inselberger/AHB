@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/simulation/modelsim
+vAHB2AHBtop
+Z1 !s110 1716987203
+!i10b 1
+!s100 eL^QbKj<P^b9IH2>m=BB>1
+IVI06^jRg>KZoZmK0]l]I]3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1716987197
+Z4 8AHB2AHBtop.vo
+Z5 FAHB2AHBtop.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1716987203.000000
+Z8 !s107 AHB2AHBtop.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|AHB2AHBtop.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@a@h@b2@a@h@btop
+vAHB2AHBtop_TB
+R1
+!i10b 1
+!s100 d;F1Nfc0kQPdJ?`L9c=6R0
+Ih[>f>?cmTnSd?;d=@RWFR1
+R2
+R0
+w1716984908
+8C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop_TB.v
+FC:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop_TB.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB|C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop_TB.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB}
+R12
+n@a@h@b2@a@h@btop_@t@b
+vhard_block
+R1
+!i10b 1
+!s100 oK0ZZA6ImAfb1:O>SE;1`0
+I?lKH`o3Lm>InjMTQ7L;lU3
+R2
+R0
+R3
+R4
+R5
+L0 6632
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

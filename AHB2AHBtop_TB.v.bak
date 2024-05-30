@@ -1,0 +1,133 @@
+`timescale 1ns/100ps
+
+module AHB2AHBtop_TB();
+reg hclk;
+//reg pclk;
+reg resetn;
+wire [7:0]dout;
+wire [7:0]data;
+wire [10:0]address;
+wire write;
+wire hready;
+wire [7:0]leitura;
+/*wire Am;
+wire Bm;
+wire Cm;
+wire Dm;
+wire Em;
+wire Fm;
+wire Gm;
+wire As1;
+wire Bs1;
+wire Cs1;
+wire Ds1;
+wire Es1;
+wire Fs1;
+wire Gs1;
+wire As2;
+wire Bs2;
+wire Cs2;
+wire Ds2;
+wire Es2;
+wire Fs2;
+wire Gs2;*/
+wire [7:0]memos0;
+wire [7:0]memos1;
+//wire [2:0]bursttype;
+//wire [7:0]memos10;
+//wire [7:0]memos11;
+
+
+/*
+input hclk,
+//input pclk,
+input resetn,
+//output [7:0]data,
+//output [10:0]address,
+//output write,
+//output [7:0]dout,
+//output [7:0]leitura,
+//output hready,
+output Am,
+output Bm,
+output Cm,
+output Dm,
+output Em,
+output Fm,
+output Gm
+//output As1,
+//output Bs1,
+//output Cs1,
+//output Ds1,
+//output Es1,
+//output Fs1,
+//output Gs1,
+//output As2,
+//output Bs2,
+//output Cs2,
+//output Ds2,
+//output Es2,
+//output Fs2,
+//output Gs2
+);
+
+
+*/
+ ahbbridgeapbtop DUT(
+.hclk(hclk),
+//.pclk(pclk),
+.resetn(resetn),
+.dout(dout),
+.data(data),
+.address(address),
+.write(write),
+.hready(hready),
+.leitura(leitura),
+/*.Am(Am),
+.Bm(Bm),
+.Cm(Cm),
+.Dm(Dm),
+.Em(Em),
+.Fm(Fm),
+.Gm(Gm),
+.As1(As1),
+.Bs1(Bs1),
+.Cs1(Cs1),
+.Ds1(Ds1),
+.Es1(Es1),
+.Fs1(Fs1),
+.Gs1(Gs1),
+.As2(As2),
+.Bs2(Bs2),
+.Cs2(Cs2),
+.Ds2(Ds2),
+.Es2(Es2),
+.Fs2(Fs2),
+.Gs2(Gs2)*/
+.memos0(memos0),
+.memos1(memos1)
+//.bursttype(bursttype)
+//.memos10(memos10),
+//.memos11(memos11)
+);
+
+
+initial begin
+
+hclk=0;
+//pclk=0;
+resetn=0;
+
+
+#20 resetn=1;
+
+
+#600 $stop;
+
+end
+
+
+always #1 hclk=~hclk;
+
+//always #10 pclk=~pclk;
+endmodule

@@ -1,0 +1,35 @@
+module instructionmemory(
+input [20:0]pc,
+output reg [20:0]instruction;
+
+);
+
+
+reg [20:0] memoria [0:1023];
+
+initial begin
+for(i = 0; i <= 1023; i = i+1) memoria[i] = 32'b0;
+	
+
+
+	
+	
+
+end
+
+
+always @(pc) begin
+
+
+instruction = memoria[pc];
+
+end
+
+
+
+
+
+
+
+endmodule
+

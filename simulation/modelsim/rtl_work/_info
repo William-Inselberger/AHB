@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/simulation/modelsim
+vAHB2AHBtop
+Z1 !s110 1716825202
+!i10b 1
+!s100 89C:G3O`[kHA[<><MV0fa2
+IMCGnHd48>L^Tb1AeNNWnA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1716813156
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1716825202.000000
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB
+Z7 tCvgOpt 0
+n@a@h@b2@a@h@btop
+vAHB2AHBtop_TB
+R1
+!i10b 1
+!s100 A0Mc8H^lU1@]A@YCA@=^[1
+I_gOHNNH9R]Z8eYTAgWb``0
+R2
+R0
+w1716824753
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop_TB.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop_TB.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/AHB2AHBtop_TB.v|
+!i113 1
+R5
+R6
+R7
+n@a@h@b2@a@h@btop_@t@b
+vahbmaster
+R1
+!i10b 1
+!s100 C0nACi0`eKAWf6U]66aeb2
+I^EVhcVAf<fjl2Od>^ELE:0
+R2
+R0
+w1716227608
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbmaster.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbmaster.v
+Z8 L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbmaster.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbmaster.v|
+!i113 1
+R5
+Z9 !s92 -vlog01compat -work work +incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top
+R7
+vahbslave
+R1
+!i10b 1
+!s100 YgdMb9TUJBz==Sk=m>6z=3
+I>UdO3TD80mz_k`2WgBeeC3
+R2
+R0
+w1716825142
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbslave.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbslave.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbslave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbslave.v|
+!i113 1
+R5
+R9
+R7
+vahbtop
+R1
+!i10b 1
+!s100 =m32NCCh3X7JOH8d?moXo3
+I5g[F>1:DhNi_dO35;7]6T0
+R2
+R0
+w1716818994
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbtop.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbtop.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbtop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/ahbtop.v|
+!i113 1
+R5
+R9
+R7
+vdecoder
+R1
+!i10b 1
+!s100 a`ZNa;SiSMR_[RjH_XS?O1
+I=@ffkU[M[m:d9;a^TK_j=0
+R2
+R0
+w1716821243
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/decoder.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/decoder.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/decoder.v|
+!i113 1
+R5
+R9
+R7
+videcoder
+R1
+!i10b 1
+!s100 1fc1lg0GVZ3nO?0^e]SLz1
+IU6mjT[3L8Z86Ezb5dY`_X2
+R2
+R0
+w1716821875
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/idecoder.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/idecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/idecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/idecoder.v|
+!i113 1
+R5
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder
+R7
+vinstructionmemory
+!s110 1716825201
+!i10b 1
+!s100 [K3XT]dDNkaT2OoC_?<3V2
+IGbjjgeUSKTj:z?0fbSYoV1
+R2
+R0
+w1716825141
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/instructionmemory.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/instructionmemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1716825201.000000
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/instructionmemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/instructiondecoder/instructionmemory.v|
+!i113 1
+R5
+R10
+R7
+vmultiplexor
+R1
+!i10b 1
+!s100 :4bjiS_V8?U`mlnMGW6WB0
+IYdCEda^9aMKCiL=Ddz88A0
+R2
+R0
+w1714418391
+8C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/multiplexor.v
+FC:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/multiplexor.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/multiplexor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top|C:/Users/LGdSF/Documents/ELT/TCC_AMBA/Verilogs/AHB2AHB/ahb_top/multiplexor.v|
+!i113 1
+R5
+R9
+R7

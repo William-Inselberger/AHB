@@ -1,0 +1,21 @@
+`timescale 1ns/1ns
+
+module decoderTB();
+
+reg hclk,
+wire [7:0] data,
+wire [9:0] address,
+wire [1:0] htrans,
+wire wr
+
+
+initial begin
+
+
+	hclk=0;
+
+
+end
+
+
+always #1 hclk=~hclk; 
