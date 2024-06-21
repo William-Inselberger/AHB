@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AHB2AHBtop
-Wed May 29 09:57:37 2024
+Thu Jun 20 22:32:28 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed May 29 09:57:37 2024       ;
+; Analysis & Synthesis Status        ; Successful - Thu Jun 20 22:32:28 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AHB2AHBtop                                  ;
 ; Top-level Entity Name              ; AHB2AHBtop                                  ;
@@ -186,31 +186,31 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                            ;
-+----------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path       ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                  ; Library ;
-+----------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
-; instructiondecoder/instructionmemory.v ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/instructionmemory.v ;         ;
-; instructiondecoder/idecoder.v          ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/idecoder.v          ;         ;
-; display/displaydecoder.v               ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/display/displaydecoder.v               ;         ;
-; ahb_top/multiplexor.v                  ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/multiplexor.v                  ;         ;
-; ahb_top/decoder.v                      ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/decoder.v                      ;         ;
-; ahb_top/ahbtop.v                       ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbtop.v                       ;         ;
-; ahb_top/ahbslave.v                     ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v                     ;         ;
-; ahb_top/ahbmaster.v                    ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v                    ;         ;
-; AHB2AHBtop.v                           ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v                           ;         ;
-; altsyncram.tdf                         ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                         ;         ;
-; stratix_ram_block.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                  ;         ;
-; lpm_mux.inc                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                            ;         ;
-; lpm_decode.inc                         ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc                         ;         ;
-; aglobal181.inc                         ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                         ;         ;
-; a_rdenreg.inc                          ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                          ;         ;
-; altrom.inc                             ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                             ;         ;
-; altram.inc                             ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                             ;         ;
-; altdpram.inc                           ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                           ;         ;
-; db/altsyncram_04g1.tdf                 ; yes             ; Auto-Generated Megafunction  ; C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/db/altsyncram_04g1.tdf                 ;         ;
-+----------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                            ;
++----------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path       ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                  ; Library ;
++----------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
+; instructiondecoder/instructionmemory.v ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/instructionmemory.v ;         ;
+; instructiondecoder/idecoder.v          ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/idecoder.v          ;         ;
+; display/displaydecoder.v               ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/display/displaydecoder.v               ;         ;
+; ahb_top/multiplexor.v                  ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/multiplexor.v                  ;         ;
+; ahb_top/decoder.v                      ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/decoder.v                      ;         ;
+; ahb_top/ahbtop.v                       ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbtop.v                       ;         ;
+; ahb_top/ahbslave.v                     ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v                     ;         ;
+; ahb_top/ahbmaster.v                    ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v                    ;         ;
+; AHB2AHBtop.v                           ; yes             ; User Verilog HDL File        ; C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v                           ;         ;
+; altsyncram.tdf                         ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf         ;         ;
+; stratix_ram_block.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc  ;         ;
+; lpm_mux.inc                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc            ;         ;
+; lpm_decode.inc                         ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc         ;         ;
+; aglobal181.inc                         ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc         ;         ;
+; a_rdenreg.inc                          ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc          ;         ;
+; altrom.inc                             ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc             ;         ;
+; altram.inc                             ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc             ;         ;
+; altdpram.inc                           ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc           ;         ;
+; db/altsyncram_04g1.tdf                 ; yes             ; Auto-Generated Megafunction  ; C:/Users/wi199/OneDrive/Documentos/AHB/db/altsyncram_04g1.tdf                 ;         ;
++----------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------+
@@ -745,114 +745,114 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed May 29 09:57:29 2024
+    Info: Processing started: Thu Jun 20 22:32:20 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AHB2AHBtop -c AHB2AHBtop
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file instructiondecoder/instructionmemory.v
-    Info (12023): Found entity 1: instructionmemory File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/instructionmemory.v Line: 1
+    Info (12023): Found entity 1: instructionmemory File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/instructionmemory.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file instructiondecoder/idecoder.v
-    Info (12023): Found entity 1: idecoder File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/idecoder.v Line: 1
+    Info (12023): Found entity 1: idecoder File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/idecoder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file display/displaydecoder.v
-    Info (12023): Found entity 1: displaydecoder File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/display/displaydecoder.v Line: 1
+    Info (12023): Found entity 1: displaydecoder File: C:/Users/wi199/OneDrive/Documentos/AHB/display/displaydecoder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ahb_top/multiplexor.v
-    Info (12023): Found entity 1: multiplexor File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/multiplexor.v Line: 8
+    Info (12023): Found entity 1: multiplexor File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/multiplexor.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file ahb_top/decoder.v
-    Info (12023): Found entity 1: decoder File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/decoder.v Line: 8
+    Info (12023): Found entity 1: decoder File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/decoder.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file ahb_top/ahbtop.v
-    Info (12023): Found entity 1: ahbtop File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbtop.v Line: 8
+    Info (12023): Found entity 1: ahbtop File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbtop.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file ahb_top/ahbslave.v
-    Info (12023): Found entity 1: ahbslave File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 12
+    Info (12023): Found entity 1: ahbslave File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 12
 Info (12021): Found 1 design units, including 1 entities, in source file ahb_top/ahbmaster.v
-    Info (12023): Found entity 1: ahbmaster File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 12
+    Info (12023): Found entity 1: ahbmaster File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 12
 Info (12021): Found 1 design units, including 1 entities, in source file ahb2ahbtop_tb.v
-    Info (12023): Found entity 1: AHB2AHBtop_TB File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop_TB.v Line: 3
+    Info (12023): Found entity 1: AHB2AHBtop_TB File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop_TB.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file ahb2ahbtop.v
-    Info (12023): Found entity 1: AHB2AHBtop File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at ahbtop.v(76): created implicit net for "hwrite" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbtop.v Line: 76
-Warning (10236): Verilog HDL Implicit Net warning at ahbslave.v(46): created implicit net for "estadoslave" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 46
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop_TB.v(25): created implicit net for "memos0" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop_TB.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop_TB.v(26): created implicit net for "memos1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop_TB.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(64): created implicit net for "Am" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 64
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(65): created implicit net for "Bm" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 65
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(66): created implicit net for "Cm" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 66
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(67): created implicit net for "Dm" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 67
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(68): created implicit net for "Em" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 68
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(69): created implicit net for "Fm" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 69
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(70): created implicit net for "Gm" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 70
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(75): created implicit net for "As1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 75
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(76): created implicit net for "Bs1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 76
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(77): created implicit net for "Cs1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 77
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(78): created implicit net for "Ds1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 78
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(79): created implicit net for "Es1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 79
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(80): created implicit net for "Fs1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 80
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(81): created implicit net for "Gs1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 81
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(86): created implicit net for "As2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 86
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(87): created implicit net for "Bs2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 87
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(88): created implicit net for "Cs2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 88
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(89): created implicit net for "Ds2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 89
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(90): created implicit net for "Es2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 90
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(91): created implicit net for "Fs2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 91
-Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(92): created implicit net for "Gs2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 92
+    Info (12023): Found entity 1: AHB2AHBtop File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at ahbtop.v(76): created implicit net for "hwrite" File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbtop.v Line: 76
+Warning (10236): Verilog HDL Implicit Net warning at ahbslave.v(46): created implicit net for "estadoslave" File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 46
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop_TB.v(25): created implicit net for "memos0" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop_TB.v Line: 25
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop_TB.v(26): created implicit net for "memos1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop_TB.v Line: 26
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(64): created implicit net for "Am" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 64
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(65): created implicit net for "Bm" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 65
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(66): created implicit net for "Cm" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 66
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(67): created implicit net for "Dm" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 67
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(68): created implicit net for "Em" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 68
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(69): created implicit net for "Fm" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 69
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(70): created implicit net for "Gm" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 70
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(75): created implicit net for "As1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 75
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(76): created implicit net for "Bs1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 76
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(77): created implicit net for "Cs1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 77
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(78): created implicit net for "Ds1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 78
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(79): created implicit net for "Es1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 79
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(80): created implicit net for "Fs1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 80
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(81): created implicit net for "Gs1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 81
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(86): created implicit net for "As2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 86
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(87): created implicit net for "Bs2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 87
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(88): created implicit net for "Cs2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 88
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(89): created implicit net for "Ds2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 89
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(90): created implicit net for "Es2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 90
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(91): created implicit net for "Fs2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 91
+Warning (10236): Verilog HDL Implicit Net warning at AHB2AHBtop.v(92): created implicit net for "Gs2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 92
 Info (12127): Elaborating entity "AHB2AHBtop" for the top level hierarchy
-Info (12128): Elaborating entity "idecoder" for hierarchy "idecoder:U1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 37
-Warning (10230): Verilog HDL assignment warning at idecoder.v(22): truncated value with size 32 to match size of target (10) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/idecoder.v Line: 22
-Info (12128): Elaborating entity "instructionmemory" for hierarchy "idecoder:U1|instructionmemory:U1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/idecoder.v Line: 14
-Warning (10030): Net "memoria.data_a" at instructionmemory.v(7) has no driver or initial value, using a default initial value '0' File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/instructionmemory.v Line: 7
-Warning (10030): Net "memoria.waddr_a" at instructionmemory.v(7) has no driver or initial value, using a default initial value '0' File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/instructionmemory.v Line: 7
-Warning (10030): Net "memoria.we_a" at instructionmemory.v(7) has no driver or initial value, using a default initial value '0' File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/instructionmemory.v Line: 7
-Info (12128): Elaborating entity "ahbtop" for hierarchy "ahbtop:U2" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 55
-Info (12128): Elaborating entity "ahbmaster" for hierarchy "ahbtop:U2|ahbmaster:master" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbtop.v Line: 84
-Warning (10240): Verilog HDL Always Construct warning at ahbmaster.v(83): inferring latch(es) for variable "hsize", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Warning (10240): Verilog HDL Always Construct warning at ahbmaster.v(83): inferring latch(es) for variable "hprot", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Warning (10240): Verilog HDL Always Construct warning at ahbmaster.v(83): inferring latch(es) for variable "hmastlock", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hmastlock" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hprot[0]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hprot[1]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hprot[2]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hprot[3]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hsize[0]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hsize[1]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (10041): Inferred latch for "hsize[2]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbmaster.v Line: 83
-Info (12128): Elaborating entity "decoder" for hierarchy "ahbtop:U2|decoder:deco" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbtop.v Line: 91
-Info (12128): Elaborating entity "ahbslave" for hierarchy "ahbtop:U2|ahbslave:slave1" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbtop.v Line: 112
-Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(46): object "estadoslave" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 46
-Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(58): object "start0" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 58
-Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(58): object "start1" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 58
-Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(59): object "count" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 59
-Warning (10230): Verilog HDL assignment warning at ahbslave.v(46): truncated value with size 2 to match size of target (1) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 46
-Warning (10230): Verilog HDL assignment warning at ahbslave.v(60): truncated value with size 10 to match size of target (8) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 60
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "single_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "wrap4_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr4_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "wrap8_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr8_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "wrap16_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr16_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Warning (10230): Verilog HDL assignment warning at ahbslave.v(371): truncated value with size 32 to match size of target (10) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 371
-Info (10264): Verilog HDL Case Statement information at ahbslave.v(354): all case item expressions in this case statement are onehot File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 354
-Info (10264): Verilog HDL Case Statement information at ahbslave.v(443): all case item expressions in this case statement are onehot File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 443
-Info (10041): Inferred latch for "incr16_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (10041): Inferred latch for "wrap16_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (10041): Inferred latch for "incr8_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (10041): Inferred latch for "wrap8_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (10041): Inferred latch for "incr4_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (10041): Inferred latch for "wrap4_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (10041): Inferred latch for "incr_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (10041): Inferred latch for "single_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbslave.v Line: 77
-Info (12128): Elaborating entity "multiplexor" for hierarchy "ahbtop:U2|multiplexor:multip" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/ahbtop.v Line: 147
-Info (12128): Elaborating entity "displaydecoder" for hierarchy "displaydecoder:U6" File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 71
+Info (12128): Elaborating entity "idecoder" for hierarchy "idecoder:U1" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 37
+Warning (10230): Verilog HDL assignment warning at idecoder.v(22): truncated value with size 32 to match size of target (10) File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/idecoder.v Line: 22
+Info (12128): Elaborating entity "instructionmemory" for hierarchy "idecoder:U1|instructionmemory:U1" File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/idecoder.v Line: 14
+Warning (10030): Net "memoria.data_a" at instructionmemory.v(7) has no driver or initial value, using a default initial value '0' File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/instructionmemory.v Line: 7
+Warning (10030): Net "memoria.waddr_a" at instructionmemory.v(7) has no driver or initial value, using a default initial value '0' File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/instructionmemory.v Line: 7
+Warning (10030): Net "memoria.we_a" at instructionmemory.v(7) has no driver or initial value, using a default initial value '0' File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/instructionmemory.v Line: 7
+Info (12128): Elaborating entity "ahbtop" for hierarchy "ahbtop:U2" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 55
+Info (12128): Elaborating entity "ahbmaster" for hierarchy "ahbtop:U2|ahbmaster:master" File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbtop.v Line: 84
+Warning (10240): Verilog HDL Always Construct warning at ahbmaster.v(83): inferring latch(es) for variable "hsize", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Warning (10240): Verilog HDL Always Construct warning at ahbmaster.v(83): inferring latch(es) for variable "hprot", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Warning (10240): Verilog HDL Always Construct warning at ahbmaster.v(83): inferring latch(es) for variable "hmastlock", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hmastlock" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hprot[0]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hprot[1]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hprot[2]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hprot[3]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hsize[0]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hsize[1]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (10041): Inferred latch for "hsize[2]" at ahbmaster.v(83) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbmaster.v Line: 83
+Info (12128): Elaborating entity "decoder" for hierarchy "ahbtop:U2|decoder:deco" File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbtop.v Line: 91
+Info (12128): Elaborating entity "ahbslave" for hierarchy "ahbtop:U2|ahbslave:slave1" File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbtop.v Line: 112
+Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(46): object "estadoslave" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 46
+Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(58): object "start0" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 58
+Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(58): object "start1" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 58
+Warning (10036): Verilog HDL or VHDL warning at ahbslave.v(59): object "count" assigned a value but never read File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 59
+Warning (10230): Verilog HDL assignment warning at ahbslave.v(46): truncated value with size 2 to match size of target (1) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 46
+Warning (10230): Verilog HDL assignment warning at ahbslave.v(60): truncated value with size 10 to match size of target (8) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 60
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "single_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "wrap4_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr4_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "wrap8_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr8_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "wrap16_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at ahbslave.v(77): inferring latch(es) for variable "incr16_flag", which holds its previous value in one or more paths through the always construct File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Warning (10230): Verilog HDL assignment warning at ahbslave.v(371): truncated value with size 32 to match size of target (10) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 371
+Info (10264): Verilog HDL Case Statement information at ahbslave.v(354): all case item expressions in this case statement are onehot File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 354
+Info (10264): Verilog HDL Case Statement information at ahbslave.v(443): all case item expressions in this case statement are onehot File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 443
+Info (10041): Inferred latch for "incr16_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (10041): Inferred latch for "wrap16_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (10041): Inferred latch for "incr8_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (10041): Inferred latch for "wrap8_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (10041): Inferred latch for "incr4_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (10041): Inferred latch for "wrap4_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (10041): Inferred latch for "incr_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (10041): Inferred latch for "single_flag" at ahbslave.v(77) File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbslave.v Line: 77
+Info (12128): Elaborating entity "multiplexor" for hierarchy "ahbtop:U2|multiplexor:multip" File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/ahbtop.v Line: 147
+Info (12128): Elaborating entity "displaydecoder" for hierarchy "displaydecoder:U6" File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 71
 Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer ahbtop:U2|multiplexor:multip|hreadyout File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/ahb_top/multiplexor.v Line: 17
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/db/AHB2AHBtop.ram0_instructionmemory_56655cf4.hdl.mif" contains "don't care" values -- overwriting them with 0s
+    Warning (19017): Found clock multiplexer ahbtop:U2|multiplexor:multip|hreadyout File: C:/Users/wi199/OneDrive/Documentos/AHB/ahb_top/multiplexor.v Line: 17
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/wi199/OneDrive/Documentos/AHB/db/AHB2AHBtop.ram0_instructionmemory_56655cf4.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Warning (276020): Inferred RAM node "ahbtop:U2|ahbslave:slave1|mem_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
 Warning (276020): Inferred RAM node "ahbtop:U2|ahbslave:slave2|mem_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276013): RAM logic "idecoder:U1|instructionmemory:U1|memoria" is uninferred because MIF is not supported for the selected family File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/instructionmemory.v Line: 7
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/db/AHB2AHBtop.ram0_instructionmemory_56655cf4.hdl.mif" contains "don't care" values -- overwriting them with 0s
+    Info (276013): RAM logic "idecoder:U1|instructionmemory:U1|memoria" is uninferred because MIF is not supported for the selected family File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/instructionmemory.v Line: 7
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/wi199/OneDrive/Documentos/AHB/db/AHB2AHBtop.ram0_instructionmemory_56655cf4.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer idecoder:U1|instructionmemory:U1|memoria~0 File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/instructiondecoder/instructionmemory.v Line: 7
+    Warning (19017): Found clock multiplexer idecoder:U1|instructionmemory:U1|memoria~0 File: C:/Users/wi199/OneDrive/Documentos/AHB/instructiondecoder/instructionmemory.v Line: 7
 Info (19000): Inferred 2 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "ahbtop:U2|ahbslave:slave1|mem_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
@@ -904,36 +904,36 @@ Info (12133): Instantiated megafunction "ahbtop:U2|ahbslave:slave1|altsyncram:me
     Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
     Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_04g1.tdf
-    Info (12023): Found entity 1: altsyncram_04g1 File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/db/altsyncram_04g1.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_04g1 File: C:/Users/wi199/OneDrive/Documentos/AHB/db/altsyncram_04g1.tdf Line: 27
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "data[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 5
-    Warning (13410): Pin "data[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 5
-    Warning (13410): Pin "data[7]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 5
-    Warning (13410): Pin "address[4]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 6
-    Warning (13410): Pin "address[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 6
-    Warning (13410): Pin "address[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 6
-    Warning (13410): Pin "address[7]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 6
-    Warning (13410): Pin "address[8]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 6
-    Warning (13410): Pin "address[9]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 6
-    Warning (13410): Pin "memos0[0]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos0[1]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos0[2]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos0[3]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos0[4]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos0[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos0[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos0[7]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 11
-    Warning (13410): Pin "memos1[0]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 13
-    Warning (13410): Pin "memos1[1]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 13
-    Warning (13410): Pin "memos1[2]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 13
-    Warning (13410): Pin "memos1[3]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 13
-    Warning (13410): Pin "memos1[4]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 13
-    Warning (13410): Pin "memos1[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 13
-    Warning (13410): Pin "memos1[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/AHB2AHBtop.v Line: 13
+    Warning (13410): Pin "data[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 5
+    Warning (13410): Pin "data[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 5
+    Warning (13410): Pin "data[7]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 5
+    Warning (13410): Pin "address[4]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 6
+    Warning (13410): Pin "address[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 6
+    Warning (13410): Pin "address[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 6
+    Warning (13410): Pin "address[7]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 6
+    Warning (13410): Pin "address[8]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 6
+    Warning (13410): Pin "address[9]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 6
+    Warning (13410): Pin "memos0[0]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos0[1]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos0[2]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos0[3]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos0[4]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos0[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos0[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos0[7]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 11
+    Warning (13410): Pin "memos1[0]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 13
+    Warning (13410): Pin "memos1[1]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 13
+    Warning (13410): Pin "memos1[2]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 13
+    Warning (13410): Pin "memos1[3]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 13
+    Warning (13410): Pin "memos1[4]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 13
+    Warning (13410): Pin "memos1[5]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 13
+    Warning (13410): Pin "memos1[6]" is stuck at GND File: C:/Users/wi199/OneDrive/Documentos/AHB/AHB2AHBtop.v Line: 13
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 9 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/output_files/AHB2AHBtop.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/wi199/OneDrive/Documentos/AHB/output_files/AHB2AHBtop.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 264 device resources after synthesis - the final resource count might be different
@@ -942,15 +942,15 @@ Info (21057): Implemented 264 device resources after synthesis - the final resou
     Info (21061): Implemented 193 logic cells
     Info (21064): Implemented 16 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 82 warnings
-    Info: Peak virtual memory: 4829 megabytes
-    Info: Processing ended: Wed May 29 09:57:37 2024
+    Info: Peak virtual memory: 4826 megabytes
+    Info: Processing ended: Thu Jun 20 22:32:28 2024
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/wi199/OneDrive/Documentos/quartus tfg/AHB2AHB/output_files/AHB2AHBtop.map.smsg.
+The suppressed messages can be found in C:/Users/wi199/OneDrive/Documentos/AHB/output_files/AHB2AHBtop.map.smsg.
 
 

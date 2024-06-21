@@ -6,12 +6,12 @@
 //---------------------------------------------------
 
 module multiplexor(
-  input [7:0] hrdata_0,
   input [7:0] hrdata_1,
-  input hreadyout_0,
+  input [7:0] hrdata_2,
   input hreadyout_1,
-  input hresp_0,
+  input hreadyout_2,
   input hresp_1,
+  input hresp_2,
   input sel,
   output reg [7:0] hrdata,
   output reg hreadyout,
@@ -21,14 +21,14 @@ module multiplexor(
 always @(*) begin
   case(sel)
     1'b0: begin
-      hrdata = hrdata_0;
-      hreadyout = hreadyout_0;
-      hresp = hresp_0;
-    end
-    1'b1: begin
       hrdata = hrdata_1;
       hreadyout = hreadyout_1;
       hresp = hresp_1;
+    end
+    1'b1: begin
+      hrdata = hrdata_2;
+      hreadyout = hreadyout_2;
+      hresp = hresp_2;
     end
 
     default: begin

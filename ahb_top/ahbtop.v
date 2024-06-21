@@ -38,18 +38,18 @@ wire hmastlock;
 wire [7:0] hwdata;
 
 // slave 1
+wire [7:0] hrdata_0;
+wire hreadyout_0;
+wire hresp_0;
+
+// slave 2
 wire [7:0] hrdata_1;
 wire hreadyout_1;
 wire hresp_1;
 
-// slave 2
-wire [7:0] hrdata_2;
-wire hreadyout_2;
-wire hresp_2;
-
 // decoder
+wire hsel_0;
 wire hsel_1;
-wire hsel_2;
 
 // multiplexor
 wire [7:0] hrdata;
@@ -86,12 +86,33 @@ ahbmaster master(
 // decoder
 decoder deco(
   .sel(addr[10]),
-  .hsel_1(hsel_1),
-  .hsel_2(hsel_2)
+  .hsel_0(hsel_0),
+  .hsel_1(hsel_1)
 );
 
 // slave 1
 ahbslave slave1(
+  .hclk(hclk),
+  .hresetn(hresetn),
+  .hsel(hsel_0),
+  .haddr(addr[9:0]),
+  .hwrite(hwrite),
+  .hsize(hsize),
+  .hburst(bursttype),
+  .hprot(hprot),
+  .htrans(htrans),
+  .hmastlock(hmastlock),
+  .hready(1'b1),
+  .hwdata(dout),
+  .hreadyout(hreadyout_0),
+  .hresp(hresp_0),
+  .hrdata(hrdata_0),
+  .memo0(memos0),
+  .memo1(memos1)
+);
+
+
+ahbslave slave2(
   .hclk(hclk),
   .hresetn(hresetn),
   .hsel(hsel_1),
@@ -107,39 +128,18 @@ ahbslave slave1(
   .hreadyout(hreadyout_1),
   .hresp(hresp_1),
   .hrdata(hrdata_1),
-  .memo0(memos0),
-  .memo1(memos1)
-);
-
-
-ahbslave slave2(
-  .hclk(hclk),
-  .hresetn(hresetn),
-  .hsel(hsel_2),
-  .haddr(addr[9:0]),
-  .hwrite(hwrite),
-  .hsize(hsize),
-  .hburst(bursttype),
-  .hprot(hprot),
-  .htrans(htrans),
-  .hmastlock(hmastlock),
-  .hready(1'b1),
-  .hwdata(dout),
-  .hreadyout(hreadyout_2),
-  .hresp(hresp_2),
-  .hrdata(hrdata_2),
   .memo0(memos10),
   .memo1(memos11)
 );
 
 // multiplexor
 multiplexor multip(
+  .hrdata_0(hrdata_0),
   .hrdata_1(hrdata_1),
-  .hrdata_2(hrdata_2),
+  .hreadyout_0(hreadyout_0),
   .hreadyout_1(hreadyout_1),
-  .hreadyout_2(hreadyout_2),
+  .hresp_0(hresp_0),
   .hresp_1(hresp_1),
-  .hresp_2(hresp_2),
   .sel(addr[10]),
   .hrdata(hrdata),
   .hreadyout(hreadyout),

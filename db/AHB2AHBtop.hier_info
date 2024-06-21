@@ -321,8 +321,8 @@ leitura[7] <= leitura[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 |AHB2AHBtop|ahbtop:U2|decoder:deco
 sel => Decoder0.IN0
+hsel_0 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 hsel_1 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-hsel_2 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |AHB2AHBtop|ahbtop:U2|ahbslave:slave1
@@ -822,26 +822,26 @@ memo1[7] <= single_flag.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |AHB2AHBtop|ahbtop:U2|multiplexor:multip
-hrdata_1[0] => hrdata.DATAA
-hrdata_1[1] => hrdata.DATAA
-hrdata_1[2] => hrdata.DATAA
-hrdata_1[3] => hrdata.DATAA
-hrdata_1[4] => hrdata.DATAA
-hrdata_1[5] => hrdata.DATAA
-hrdata_1[6] => hrdata.DATAA
-hrdata_1[7] => hrdata.DATAA
-hrdata_2[0] => hrdata.DATAB
-hrdata_2[1] => hrdata.DATAB
-hrdata_2[2] => hrdata.DATAB
-hrdata_2[3] => hrdata.DATAB
-hrdata_2[4] => hrdata.DATAB
-hrdata_2[5] => hrdata.DATAB
-hrdata_2[6] => hrdata.DATAB
-hrdata_2[7] => hrdata.DATAB
-hreadyout_1 => hreadyout.DATAA
-hreadyout_2 => hreadyout.DATAB
-hresp_1 => hresp.DATAA
-hresp_2 => hresp.DATAB
+hrdata_0[0] => hrdata.DATAA
+hrdata_0[1] => hrdata.DATAA
+hrdata_0[2] => hrdata.DATAA
+hrdata_0[3] => hrdata.DATAA
+hrdata_0[4] => hrdata.DATAA
+hrdata_0[5] => hrdata.DATAA
+hrdata_0[6] => hrdata.DATAA
+hrdata_0[7] => hrdata.DATAA
+hrdata_1[0] => hrdata.DATAB
+hrdata_1[1] => hrdata.DATAB
+hrdata_1[2] => hrdata.DATAB
+hrdata_1[3] => hrdata.DATAB
+hrdata_1[4] => hrdata.DATAB
+hrdata_1[5] => hrdata.DATAB
+hrdata_1[6] => hrdata.DATAB
+hrdata_1[7] => hrdata.DATAB
+hreadyout_0 => hreadyout.DATAA
+hreadyout_1 => hreadyout.DATAB
+hresp_0 => hresp.DATAA
+hresp_1 => hresp.DATAB
 sel => Decoder0.IN0
 hrdata[0] <= hrdata.DB_MAX_OUTPUT_PORT_TYPE
 hrdata[1] <= hrdata.DB_MAX_OUTPUT_PORT_TYPE
